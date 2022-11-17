@@ -9,22 +9,19 @@
     <com.google.android.material.appbar.AppBarLayout
 
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/TIMETABLE">
-
+        android:layout_height="wrap_content">
 
 
         <com.google.android.material.tabs.TabLayout
             android:id="@+id/tabs"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/upper"
+            android:hapticFeedbackEnabled="true"
             android:textAlignment="center"
-            app:tabTextAppearance="@style/TIMETABLE1"
-            app:tabBackground="@drawable/tab_selector"
+            app:tabIndicatorColor="@color/white"
             app:tabSelectedTextColor="@color/white"
-            app:tabTextColor="#262662"
-            android:hapticFeedbackEnabled="true"/>
+            app:tabTextAppearance="@style/TIMETABLE1"
+            app:tabTextColor="@color/white" />
     </com.google.android.material.appbar.AppBarLayout>
 
     <androidx.viewpager.widget.ViewPager
