@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_timetable">
+
+    <fragment
+        android:id="@+id/nav_timetable"
+        android:name="com.example.grachi.ui.Table.TimetableFragment"
+        android:label="РАСПИСАНИЕ"
+        tools:layout="@layout/fragment_timetable" >
+
+
+        <argument
+            android:name="home1"
+            app:argType="string"
+            android:defaultValue="home" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_mark"
+        android:name="com.example.grachi.ui.mark.MarkFragment"
+        android:label="ОЦЕНКИ"
+        tools:layout="@layout/fragment_teacher" >
+
+        <argument
+            android:name="gallery1"
+            app:argType="string"
+            android:defaultValue="gallery" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_teacher"
+        android:name="com.example.grachi.ui.teacher.TeacherFragment"
+        android:label="СПИСОК УЧИТЕЛЕЙ"
+        tools:layout="@layout/fragment_teacher" >
+        <argument
+            android:name="slideshow1"
+            app:argType="string"
+            android:defaultValue="slideshow" />
+    </fragment>
+
+
+
+</navigation>

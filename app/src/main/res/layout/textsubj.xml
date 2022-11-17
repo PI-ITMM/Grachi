@@ -1,0 +1,12 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    android:paddingVertical="10dp"
+    android:paddingHorizontal="25dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="14sp"
+    android:textStyle="bold"
+    android:fontFamily="@font/roboto_condensed_regular"
+    android:textColor="@android:color/white"
+    android:shadowRadius="3"
+    />

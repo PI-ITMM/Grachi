@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Лицей№36</string>
+    <string name="timetable">Расписание</string>
+    <string name="profile">Профиль</string>
+    <string name="mark">Оценки</string>
+    <string name="teacher">Учителя</string>
+    <string name="app_in_name">АВТОРИЗАЦИЯ</string>
+    <string name="app_name_after">ЛИЦЕЙ №36</string>
+    <string name="text_bottom">Войдите в свою учетную запись</string>
+    <string name="btnSignIn">Войти</string>
+    <string name="btnRegister">Зарегистрироваться</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="TableR">Расписание</string>
+    <string name="Понедельник">ПН</string>
+    <string name="Вторник">ВТ</string>
+    <string name="Среда">СР</string>
+    <string name="Четверг">ЧТ</string>
+    <string name="Пятница">ПТ</string>
+    <string name="Суббота">СБ</string>
+    <string name="title_activity_main_for_days">MainForDays</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

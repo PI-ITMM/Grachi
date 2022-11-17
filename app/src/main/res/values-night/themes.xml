@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="color">#000000</item>
+    </style>
+    <style name="yourStyleDrawer">
+        <item name="android:textColor">@color/white</item>
+        <item name="editTextColor">@color/white</item>
+        <item name="subtitleTextColor">@color/white</item>
+        <item name="subtitleTextStyle">@layout/texttab</item>
+    </style>
+</resources>

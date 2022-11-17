@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#B2CEFF</item>
+        <item name="colorPrimaryDark">#B2CEFF</item>
+        <item name="colorAccent">#B2CEFF</item>
+        <item name="android:windowFullscreen">true</item>
+
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="color">#000000</item>
+    </style>
+    <style name="TIMETABLE">
+        <item name="colorPrimary">#ABC6FD</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#ABC6FD</item>
+        <item name="android:textSize">0dp</item>
+        <item name="fontFamily">@font/roboto_condensed_regular</item>
+        <item name="android:fontFamily">@font/roboto_condensed_regular</item>
+        <item name="android:scrollbarSize">40dp</item>
+        <item name="android:actionBarTabTextStyle">@font/roboto_condensed_regular</item>
+
+        <item name="tabPadding">5dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="tabStyle">@layout/texttab</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="TIMETABLE1" parent="TIMETABLE">
+        <item name="android:textSize">25sp</item>
+        <item name="fontFamily">@font/roboto_condensed_regular</item>
+        <item name="android:fontFamily">@font/roboto_condensed_regular</item>
+        <item name="android:actionBarTabTextStyle">@font/roboto_condensed_regular</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="DrawerTextStyle" >
+        <item name="android:textSize">30sp</item>
+        <item name="fontFamily">@font/roboto_condensed_regular</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/roboto_condensed_regular</item>
+        <item name="android:shadowColor">#C6A7EF</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowRadius">6</item>
+    </style>
+</resources>
