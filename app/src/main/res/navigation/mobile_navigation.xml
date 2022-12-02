@@ -19,6 +19,17 @@
 
     </fragment>
 
+    <fragment
+        android:id="@+id/nav_mark"
+        android:name="com.example.grachi.ui.mark.MarkFragment"
+        android:label="ОЦЕНКИ"
+        tools:layout="@layout/fragment_teacher" >
 
+        <argument
+            android:name="gallery1"
+            app:argType="string"
+            android:defaultValue="gallery" />
+
+    </fragment>
 
 </navigation>

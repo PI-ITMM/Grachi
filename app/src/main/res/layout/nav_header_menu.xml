@@ -9,6 +9,48 @@
     android:padding="16dp"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
+    <ImageView
+        android:id="@+id/image"
+        android:paddingTop="20dp"
+        android:layout_width="70dp"
+        android:layout_height="110dp"
+        android:background="@drawable/bird1"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        app:layout_constraintLeft_toRightOf="@+id/image"
+        android:id="@+id/lic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="ЛИЦЕЙ №36"
+        android:fontFamily="@font/roboto_condensed_regular"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:textSize="28sp"
+        android:textColor="@color/white"
+        android:shadowColor="#C6A7EF"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="6"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_condensed_regular"
+        android:text="пр.Кирова, 29а"
+        android:textColor="#DEDCFD"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintLeft_toRightOf="@+id/image"
+        app:layout_constraintTop_toBottomOf="@+id/lic"
+        android:layout_marginTop="5dp"
+        tools:ignore="MissingConstraints" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
